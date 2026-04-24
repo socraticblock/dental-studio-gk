@@ -1,4 +1,4 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { User } from 'lucide-react';
 
@@ -9,7 +9,7 @@ const doctors = [
   { name: 'Dr. Elena S.', exp: '12+ Years' }
 ];
 
-const Team: React.FC = () => {
+const Team: FC = () => {
   return (
     <section id="doctors" className="py-32 bg-white">
       <div className="container">

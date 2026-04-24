@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
   return (
     <footer className="bg-primary text-white pt-32 pb-16 overflow-hidden">
       <div className="container">

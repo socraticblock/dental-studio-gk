@@ -1,7 +1,7 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 
-const Hero: React.FC = () => {
+const Hero: FC = () => {
   return (
     <section className="relative pt-40 pb-24 overflow-hidden bg-white">
       <div className="container flex flex-col items-center text-center">

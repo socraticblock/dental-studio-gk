@@ -1,4 +1,4 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { Activity, Sparkles, Smile, ShieldCheck } from 'lucide-react';
 
@@ -29,7 +29,7 @@ const services = [
   }
 ];
 
-const Services: React.FC = () => {
+const Services: FC = () => {
   return (
     <section id="services" className="py-32 bg-white">
       <div className="container">

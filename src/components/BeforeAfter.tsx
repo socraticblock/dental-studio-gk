@@ -1,8 +1,8 @@
-import React, { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, FC } from 'react';
 
 const tabs = ["Aesthetic Dentistry", "Orthodontics", "Implantology", "Cleaning"];
 
-const BeforeAfter: React.FC = () => {
+const BeforeAfter: FC = () => {
   const [activeTab, setActiveTab] = useState(tabs[0]);
   const [sliderPosition, setSliderPosition] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);

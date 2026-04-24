@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect, FC } from 'react';
 import { motion } from 'framer-motion';
 
-const Navbar: React.FC = () => {
+const Navbar: FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {

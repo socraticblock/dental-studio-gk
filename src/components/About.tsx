@@ -1,8 +1,8 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { Building2, Microscope, Wand2 } from 'lucide-react';
 
-const About: React.FC = () => {
+const About: FC = () => {
   return (
     <section id="about" className="py-32 bg-azure/30 overflow-hidden">
       <div className="container">
