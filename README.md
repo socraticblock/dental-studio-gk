@@ -71,3 +71,7 @@ export default defineConfig([
   },
 ])
 ```
+
+---
+
+More from me: **[socraticblock.com](https://www.socraticblock.com/)** — portfolio, case studies and engineering notes.
